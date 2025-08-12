@@ -26,7 +26,7 @@
                         <c:set var="cssMenu" value=""/>
                     </c:otherwise>
                 </c:choose>
-                <li class="${cssMenu}"><a href="<spring:url value="/" htmlEscape="true" />"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span>homepage</span></a></li>
+                <li class="${cssMenu}"><a href="<spring:url value="/" htmlEscape="true" />"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span>homes</span></a></li>
                 <c:choose>
                     <c:when test="${name eq 'owners'}">
                         <c:set var="cssMenu" value="active"/>
